@@ -9,7 +9,7 @@
 
 html_header "Txt2tags Preview"
 txt2tags -t html -i- -o- |
-	sed "s|&lt;HEAD&gt;|&amp;&lt;base href='tm-file://${TM_FILEPATH// /%20}'&gt;|"
+	sed "s|&lt;HEAD&gt;|&amp;&lt;base href='file://${TM_FILEPATH// /%20}'&gt;|"
 	# ^needed for images, CSS files and friends
 html_footer
 </string>
