@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:${TM_SELECTED_TEXT:Site Name}} ${2:`#!/usr/bin/env ruby
+	<string>[${1:${TM_SELECTED_TEXT:Site Name}} ${2:`#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 
 def entity_escape(text)
   # no need to escape, txt2tags already does it

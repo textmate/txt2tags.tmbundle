@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:${TM_SELECTED_TEXT:`#!/usr/bin/env ruby
+	<string>[${1:${TM_SELECTED_TEXT:`#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 
 def make_link(text)
   case text
