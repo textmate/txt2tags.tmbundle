@@ -196,7 +196,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\s+$</string>
+			<string>[\t ]+$</string>
 			<key>name</key>
 			<string>invalid.deprecated.trailing-whitespace.txt2tags</string>
 		</dict>
